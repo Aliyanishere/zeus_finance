@@ -1,38 +1,336 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.bg_hero{
+  background: url(./assets/images/bg-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
+  width: 100%;
+  background-color: 	rgba(0, 0, 0, 0.938);
+}
+
+.side_image img{
+  height: 84vh
+}
+
+.logo_back{
+  background-color: black;
+  width: 100%;
+  height: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.head_1{
+  margin-top: 220px;
+}
+.content_btn a{
   color: white;
 }
+.content_btn  a:hover {
+  color: gold;
+}
+.fa-arrow-right:hover{
+  color: gold;
+}
+.fa-arrow-right{
+  color: black;
 
-.App-link {
-  color: #61dafb;
+}
+.border_1{
+
+border-right: 1px solid #262626;
+height: 160px;
+} 
+.border_10{
+
+  border-right: 1px solid #262626;
+  height: 200px;
+  } 
+.border_11{
+  border-top: 1px solid  #262626;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.content_1{
+  margin-top: 87px;
+ 
+
+}
+
+.bg_hero2{
+  padding: 0;
+  background: url('./assets/images/bg-image-1.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 100vh;
+ 
+}
+.bg_hero3{
+  background: url(./assets/images/bg.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 100vh;
+ 
+}
+
+/* NAVBAR START */
+.navbar-nav .nav-item .nav-link{
+  color: white;
+  font-size: 20px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: gold;
+}
+.navbar-brand{
+  background-color: black;
+
+
+}
+.logo_2{
+  background-color: black;
+  height: 100px;
+  width: 200px;
+  margin-top: -20px;
+  margin-left: -10px;
+ 
+
+}
+
+/* NAVBAR END */
+
+/* Hero Start */
+
+.banner_line{
+  background: url(./assets/images/banner_line.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+
+}
+/* Hero eND */
+
+/* Second Section Start */
+.border_Left{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.border_Right{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.second_section{
+  border-radius: 30px;
+}
+
+.bg-Second{
+  background-color: #111111;
+}
+/* .polygone_image{
+  background: url(./assets/images/polygone1.png);
+  background-position: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 100vh;
+}
+.polygone_image2{
+  background: url(./assets/images/polygone2.png);
+  background-position: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 100vh;
+} */
+.card_line1{
+  margin-top: 100px;
+}
+/* Second Section End */
+
+/* third section Start */
+.card-1 {
+  background-color: #111111;
+  width: 280px;
+  border-top-right-radius: 40%;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  position: relative;
+  height: 300px;
+}
+.card-2 {
+  background-color: #111111;
+  width: 300px;
+  border-top-right-radius: 70%;
+  border-top-left-radius: 70%;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  position: relative;
+  height: 170px;
+}
+/*  third Section ENd */
+
+/* Footer Start */
+.footer_container{
+  margin-top: 20px;
+}
+/* Footer End */
+
+
+.space_1{
+  margin-top: 100px;
+}
+.text-warning{
+  color: #FFDD00 !important;
+}
+.btn-warning{
+  background-color: #FFDD00 !important;
+}
+
+.second_bg_image{
+  
+  background: url(./assets/images/Second_section.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: auto;
+
+}
+.card_2{
+  margin-bottom: 100px;
+}
+
+.pt-5 {
+  padding-top: 1rem!important;
+}
+.fa-bars{
+   color: white;
+}
+@media only screen and (max-width: 1024px) and (min-width: 200px)  {
+
+.hero_text {
+  text-align: center;
+  font-size: 15px;
+  /* background-color:#111111 ; */
+  /* width: 300px; */
+ 
+}
+.hero_text p{
+  font-size: 10px;
+ 
+}
+
+.border_1{
+
+  border-right: 0px solid #262626;
+ 
+  } 
+  
+  .cards_2{
+      margin-top:-40px ;
   }
-  to {
-    transform: rotate(360deg);
+
+  .img_plus{
+      height: 30px;
+      margin-top: -40px;
   }
+ .row_border{
+     width: 100%;
+ }
+
+}
+@media only screen and (max-width: 1450px){
+  .img_plus{
+      height: 30px;
+     
+  }
+}
+
+/* @media only screen and (max-width: 420px)  {
+
+.row_border{
+     width: 50px;
+ }
+
+ .img_plus{
+  height: 30px;
+  margin-top: -40px;
+}
+
+} */
+
+/* Stack Page CSS */
+
+.bg_icon{
+  background-image: url(./assets/images/logo_icon.png);
+  height: 50px    ;
+  background-repeat: no-repeat;
+background-position: right;
+border-radius: 20px;
+padding: 30px 20px;
+
+}
+.modal-content{
+  border-radius: 30px;
+  color: white ;
+  background-color: #111111;
+  /* width: 600px; */
+}
+
+.text_gold{
+  color: #FFDD00;
+}
+.modal-title{
+  color: #FFDD00;
+}
+.btn-close{
+  background-color: #FFDD00;
+}
+.row_border{
+  border: 1px solid #FFDD00;
+  height: 60px;
+  padding: 10px;
+  border-radius: 15px;
+  align-items: center;
+  /* width: 400px; */
+  background-color: #151515;
+
+}
+.heading_font1 h1{
+  font-size: 60px;
+}
+
+
+.stack_bg_image{
+  background: url(./assets/images/Second_section.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: auto;
+  width: 100%;
+
+}
+.card-2{
+  /* box-shadow: 60px 50px 85px 24px rgba(16,16,16,0.75); */
+
 }
